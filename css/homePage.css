@@ -1,20 +1,18 @@
+/* header */
 .homePage {
-   max-width: 2000px;
+    max-width: 2000px;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .header {
     width: 1470px;
     height: 116px;
-    
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
 .header_content {
     width: 1250px;
     height: 100%;
@@ -30,22 +28,18 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-     
-     
 }
 .header_logo  img {
     width: 65px;
     height: 32px;
     margin-top: 60%;
     padding-left: 10px;
-     
 }
 .header_menu{
     width: 441px ;
     height: 40px;
     display: flex;
     align-items: center;
-  
 }
 .burger {
     display: none;
@@ -69,7 +63,6 @@
     display: flex;
     flex-direction: column;
     padding: 2px 15px;
-     
 }
 .number_menu_item span {
     font-size: 12px;
@@ -81,18 +74,242 @@
     color: rgb(0, 0, 0);
     font-weight: 500;
 }
-
-
-
-
-
-
 .divided{ 
     width: 1400px;
     height: 1px;
     border-bottom: 2px solid black;
     
 }
+/* header */
+
+
+/* main  */
+.main {
+    width: 1470px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+/* section hero */
+.hero {
+    width: 1470px;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.hero_content {
+    width: 1250px;
+    height: 540px;
+    background-image: url(../images/Hero\ Image.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+
+}
+.hero_content .hero_title {
+    width: 659px;
+    height: 348px;
+     
+}
+.hero_content .hero_title  h1 {
+    font-size: 104px;
+    display: flex;
+    flex-direction: column;
+}
+.hero_option {
+    width: 300px;
+    height: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+}
+.hero_button {
+    width: 178px;
+    height: 48px;
+    display: flex;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 40%;
+    border-radius: 5px;
+    
+    
+    
+}
+.hero_button .btn {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.hero_button .btn i {
+    font-size: 20px;
+    font-weight: bold;
+}
+.social {
+    width: 136px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-left: 55%;
+  
+}
+.social i {
+    font-size:24px;
+    color: black;
+}
+/* section hero */
+
+
+
+
+/* about */
+.about {
+    width: 1455px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about_title_description {
+    width: 931px;
+    height: 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 30px;
+    margin-top: 40px;
+}
+.about_title_description h1 {
+    font-size: 48px;
+    text-align: center;
+    width: 900px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.description {
+    width: 441px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.description p {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+
+
+}
+.image_cards {
+    width: 1455px;
+    height: 330px;
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+.image_card {
+    width: 397.33px;
+    height: 330px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.307);
+}
+.image_card img{
+    overflow: hidden;
+}
+
+.desctiption_titile {
+    width: 552px;
+    height: 200px;
+    
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.desctiption_titile  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.about_button{
+    width: 181px;
+    height: 48px;
+    display: flex;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    
+    border-radius: 5px;
+    
+    
+    
+}
+ 
+ 
+ 
+
+/* about */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main  */
+
  
  
 
